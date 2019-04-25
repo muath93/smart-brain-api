@@ -38,7 +38,7 @@ app.listen(PORT, () => {
     console.log(`Server is running on port ${PORT} `);
 })
 
-app.get('/', (req, res) => { res.send(database.users) })
+app.get('/', (req, res) => { res.send('It is working') })
 
 app.post('/signin', (req, res) => { signin.handelSignin(req, res, db, bcrypt) })
 
