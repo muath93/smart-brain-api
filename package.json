@@ -4,7 +4,8 @@
   "description": "smart-brain-api",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon server.js"
+    "start": "node server.js",
+    "dev": "nodemon server.js"
   },
   "author": "Muath Altayyar",
   "license": "ISC",
